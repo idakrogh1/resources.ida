@@ -32,7 +32,7 @@ root<-has_file(".ROS-Examples-root")$make_fix_file()
 #### Load data
 
 ```{r }
-allnames <- read.csv(root("Names/data","allnames_clean.csv"))
+allnames <- read_csv("~/Desktop/Methods 2/resources.ida/classes/data/Names/data/allnames_clean.csv")
 girl <- as.vector(allnames$sex)=="F"
 names <- as.vector(allnames$name)
 ```
